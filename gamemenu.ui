@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gamemenu</class>
+ <widget class="QWidget" name="gamemenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1255</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+font: 53pt &quot;Freestyle Script&quot;;
+color: rgb(85, 170, 255);
+}
+QPushButton:hover{
+	color: rgb(85, 255, 255);
+font: 55pt &quot;Freestyle Script&quot;;
+}
+QPushButton:pressed{
+color: rgb(85, 85, 255);
+border: 0px;
+font: 53pt &quot;Freestyle Script&quot;;
+}</string>
+  </property>
+  <widget class="QPushButton" name="continue_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>130</y>
+     <width>390</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONTINUE</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restart">
+   <property name="geometry">
+    <rect>
+     <x>392</x>
+     <y>250</y>
+     <width>390</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RESTART</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mainmenu">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>380</y>
+     <width>390</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINMENU</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>560</y>
+     <width>390</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

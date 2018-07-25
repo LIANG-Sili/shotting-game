@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gameover</class>
+ <widget class="QWidget" name="gameover">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+color: rgb(170, 0, 255);
+border: 0px;
+font: 53pt &quot;Freestyle Script&quot;;
+}
+QPushButton:hover{
+color: rgb(170, 0, 255);
+border-color: rgb(85, 170, 255);
+	font: 53pt &quot;Freestyle Script&quot;;
+background-color: rgb(85, 170, 255);
+
+border-radius:10px;
+padding:2px 4px;
+}
+QPushButton:pressed{
+color: rgb(170, 0, 255);
+	font: 53pt &quot;Freestyle Script&quot;;
+	border-color: rgb(85, 85, 255);
+background-color: rgb(85, 85, 255);
+
+border-radius:10px;
+padding:2px 4px;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="restart">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>380</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RESTART</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mainmenu">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>381</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MAINMENU</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>340</y>
+     <width>380</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

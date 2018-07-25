@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1581</width>
+    <height>989</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainMenu</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#start:hover{
+border: 0px;
+image: url(:/source/image/button/continue_light.png);
+}
+
+QPushButton#start{
+border: 0px;
+image: url(:/source/image/button/continue_dim.png);
+}
+
+QPushButton#start:pressed{
+border: 0px;
+image: url(:/source/image/button/continue_dim.png);
+}
+
+QPushButton#exit:hover{
+border: 0px;
+image: url(:/source/image/button/exit_light.png);
+}
+
+QPushButton#exit{
+border: 0px;
+image: url(:/source/image/button/exit_dim.png);
+}
+
+QPushButton#exit:press{
+border: 0px;
+image: url(:/source/image/button/exit_dim.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="start">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>250</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>900</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
